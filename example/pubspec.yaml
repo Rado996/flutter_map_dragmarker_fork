@@ -24,7 +24,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_map: ">=5.0.0 <6.0.0"
+  flutter_map:
+    git:
+      url: https://github.com/Rado996/flutter_map_my_fork.git
+      ref: updatedRelease
 
   flutter_map_dragmarker:
     path: ../
